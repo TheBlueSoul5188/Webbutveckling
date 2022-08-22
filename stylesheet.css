@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 22px;
+}
+
+h2{
+    text-align: center;
+    color:blue;
+    background-color: white;
+}
+
+.program{
+    text-align: center;
+    color: blue;
+    background-color: white;
+}
+
+.tankar{
+    text-align: right;
+}
+
+.ommig{
+    border-style: solid;
+}
