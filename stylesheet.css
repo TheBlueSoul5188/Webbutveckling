@@ -80,3 +80,8 @@ tr:nth-child(1) {
 .yr {
     text-align: center;
 }
+
+
+.färglad {
+    border: 2px solid black;
+}
