@@ -1,22 +1,65 @@
 body{
     background-color: grey;
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:10px;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+header{
+    grid-area: header;
+}
+
+header > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 5px solid black;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+aside img{
+    width:80%;
+}
+
+
+footer{
+    grid-area: footer;
+}
+
+footer > p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 5px black solid;
+    border-bottom: 5px solid black;
 }
 
 h1{
     font-family: Arial;
     font-size: 22px;
+    text-align: center;
 }
 
 h2{
     text-align: center;
-    color:blue;
-    background-color: white;
+    color:black;
+    background-color: grey;
 }
 
 .program{
     text-align: center;
-    color: blue;
-    background-color: white;
+    color: black;
+    background-color: grey;
 }
 
 .tankar{
@@ -107,3 +150,4 @@ tr:nth-child(1) {
 .färgglad {
     border-collapse: collapse;
 }
+
