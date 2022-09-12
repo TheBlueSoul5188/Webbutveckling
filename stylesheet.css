@@ -81,7 +81,29 @@ tr:nth-child(1) {
     text-align: center;
 }
 
+.mitten {
+    height: 100px;
+    background-color: yellow;
+}
 
-.färglad {
-    border: 2px solid black;
+.an {
+    height: 100px;
+    background-color: red;
+}
+
+.fae {
+    background-color: rgb(39, 95, 197);
+}
+
+.fat {
+    background-color: black;
+}
+
+.fak {
+    height: 100px;
+    background-color: green;
+}
+
+.färgglad {
+    border-collapse: collapse;
 }
